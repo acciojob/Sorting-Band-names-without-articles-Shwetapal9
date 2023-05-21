@@ -18,5 +18,5 @@ const ul = document.getElementById('bands');
 touristSpots.forEach((bandName) => {
   const li = document.createElement('li');
   li.textContent = bandName;
-  ul.appendChild(li);
+  ul.append(li);
 });
